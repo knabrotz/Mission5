@@ -1,0 +1,32 @@
+﻿body {
+    background-color:lightgray;
+    text-align:center;
+
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #24a6ab;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+a{
+    color:white;
+    background-color:transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.centered{
+    text-align: left;
+    width: 40%;
+    margin:auto;
+}

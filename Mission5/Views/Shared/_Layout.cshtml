@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link href="~/css/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header">
+        <h1>@ViewData["Header"]</h1>
+        <nav>
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            |
+            <a asp-controller="Home" asp-action="Podcast">Podcast</a>
+            |
+            <a asp-controller="Home" asp-action="Movies">Add Movie</a>
+            |
+            <a asp-controller="Home" asp-action="MovieList">List</a>
+        </nav>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+
+
+</body>
+</html>
